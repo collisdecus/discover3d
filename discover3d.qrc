@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/logo_16.png</file>
+        <file>assets/logo_32.png</file>
+        <file>assets/logo_64.png</file>
+        <file>assets/neight.png</file>
+        <file>assets/nfive.png</file>
+        <file>assets/nfour.png</file>
+        <file>assets/nnine.png</file>
+        <file>assets/none.png</file>
+        <file>assets/nseven.png</file>
+        <file>assets/nsix.png</file>
+        <file>assets/nthree.png</file>
+        <file>assets/ntwo.png</file>
+        <file>assets/threeplus.png</file>
+        <file>assets/two.png</file>
+        <file>assets/nnull.png</file>
+        <file>assets/back.png</file>
+        <file>assets/back_highlighted.png</file>
+        <file>assets/back_marked.png</file>
+        <file>assets/back_marked_highlighted.png</file>
+        <file>assets/done.png</file>
+        <file>assets/undone.png</file>
+        <file>assets/nten.png</file>
+    </qresource>
+</RCC>
