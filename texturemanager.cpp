@@ -6,7 +6,7 @@
 #include <GL/glu.h>
 
 // has to be global or else QGLWidget crashes (?)
-GLint textureNames[140];
+GLint textureNames[144];
 
 const QString numbers[] = { ":/assets/nnull.png",
                             ":/assets/none.png",

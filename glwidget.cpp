@@ -7,7 +7,7 @@
 #include <QtGui/QMatrix4x4>
 #include <QtGui/QMatrix3x3>
 #include <QtGui/QMouseEvent>
-#include <gl/glu.h>
+#include <GL/glu.h>
 
 GLWidget::GLWidget(QWidget* parent) :
   QGLWidget(parent),
