@@ -52,6 +52,14 @@ void TextureManager::init()
             result = mergeImages(result, number);
           }
 
+          #ifndef Q_WS_WIN
+          {
+            QTransform transform;
+            result = result.transformed(transform.rotate( -180,Qt::XAxis ), Qt::FastTransformation);
+          }
+          #endif
+
+          pixmaps.append(result);
           _textureIds[tex] = id;
           textureNames[id] = _glWidget->bindTexture(result, GL_TEXTURE_2D);
           ++id;
