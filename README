@@ -3,6 +3,7 @@ Nonogram puzzles in 3 dimensions
 
 -- How to build --
 'qmake discover3d.pro'
+'make'
 
 -- License -- 
 Copyright (c) 2012 Michael Schießl
